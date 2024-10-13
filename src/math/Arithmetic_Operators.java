@@ -1,6 +1,6 @@
 package math;
 
-public class Operators {
+public class Arithmetic_Operators {
     public static void main(String[] args) {
         int num1 = 7;
         int num2 = 5;
