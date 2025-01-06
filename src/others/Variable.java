@@ -1,10 +1,12 @@
 package others;
 
+import java.util.Scanner;
+
 public class Variable {
     public static void main(String[] args) {
         //Variables
         /**
-        * A placeholder for a value that behaves as the value
+         * A placeholder for a value that behaves as the value
          * it contains
          *      forexample
          *      x = 123
@@ -26,6 +28,32 @@ public class Variable {
          *   #  char    2bytes primitive    single character/latter/ASCII value ex. 'f'
          *   #  String  varies referente    a sequence of characters ex. "Hello World"
          *
-        * **/
+         *
+         *      How to create a variable
+         *
+         *          int x;  declaraction
+         *          x = 123;    assignment
+         *          int x = 123;    initialization
+         *          long x = 122444343555342424;
+         *
+         *
+         *
+         *          When we need to store a larger number, we use the long data type, and we do the conversion with the capital letter L,
+         *          placed after the number, for example, long x = 122444343555342424L;
+         *
+         *
+         *          input in java
+         *
+         *          impor java.itul.Scanner;
+         *          Scanner scanner = new Scanner(System.in);
+         *
+         **/
+
+        String nombre = "";
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("what is your name: ");
+        nombre = scanner.nextLine();
+
+        System.out.println("hello " + nombre);
     }
 }
