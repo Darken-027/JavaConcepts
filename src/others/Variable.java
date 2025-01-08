@@ -49,18 +49,26 @@ public class Variable {
          *
          **/
 
-        String nombre = "";
-        int age = 0;
+//        String name = "";
+//        int age = 0;
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("what is your name: ");
+//        name = scanner.nextLine();
+//        System.out.print("how old are you ? ");
+//        age = scanner.nextInt();
+//
+//
+//
+//        System.out.println("hello " + name);
+//        System.out.print("Your age is.. " + age + " year old");
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("what is your name: ");
-        nombre = scanner.nextLine();
-        System.out.println("how old are you ? ");
-        age = scanner.nextInt();
 
+        //Expression
+        double friends = 10;
 
+        friends--;
 
-        System.out.println("hello " + nombre + "right");
-        System.out.println("Your age is.. " + age);
+        System.out.println(friends);
     }
 }
