@@ -13,5 +13,6 @@ public class RandomClass {
         System.out.println(y);
         System.out.println(y);
         System.out.println(y);
+        System.out.println(y);
     }
 }
