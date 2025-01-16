@@ -10,10 +10,5 @@ public class RandomClass {
         double y = random.nextDouble();
 
         System.out.println(x);
-        System.out.println(y);
-        System.out.println(y);
-        System.out.println(y);
-        System.out.println(y);
-        System.out.println(y);
     }
 }
