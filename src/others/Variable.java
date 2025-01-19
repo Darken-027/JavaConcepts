@@ -93,5 +93,38 @@ public class Variable {
         doublel = 1.1111111111111E+9D;
         System.out.println("f1oatl = " + floatl);
         System.out.println("doub1el = " + doublel);
+
+        // Boolean type variables
+        boolean booleanl, boolean2;
+        booleanl = true;
+        boolean2 = false;
+        System.out.println("boo1eanl = " + booleanl);
+        System.out.println("boolean2 = " + booleanl);
+
+        // Determine flow
+
+        boolean boolean3, boolean4;
+        boolean3 = true;
+        boolean4 = false;
+
+        if (boolean3) {
+            System.out.println("boolean3 is true");
+        } else {
+            System.out.println("Boolean3 is false");
+        }
+
+        // Inicialize variables
+        int number1;
+        number1 = 12;
+        System.out.println("number1 = " + number1);
+
+        int number3 = 44;
+        System.out.println("number3 = " + number3);
+
+        // Or other form
+        int int11 = 1, int12 = 2, int13 = 3, int14 = 4;
+
+        System.out.println("int11 = " + int11 + " int12 = " + int12 + " int13 = " + int13 + " int14 = " + int14);
+
     }
 }
