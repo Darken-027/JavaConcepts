@@ -126,7 +126,7 @@ public class Variable {
 
         System.out.println("int11 = " + int11 + " int12 = " + int12 + " int13 = " + int13 + " int14 = " + int14);
 
-        // dinami inizalitazation
+        // dinami initialization
         int int55 = 2, int33 = 3;
         int int77 = int55 * int33;
         System.out.println("int55 = " + int55 + ", int33 = " + int33 +
