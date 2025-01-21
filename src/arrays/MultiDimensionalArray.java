@@ -1,6 +1,6 @@
 package arrays;
 
-public class Multi_Dimensional_Array {
+public class MultiDimensionalArray {
     public static void main(String[] args) {
         
         
