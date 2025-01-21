@@ -135,6 +135,7 @@ public class Variable {
         int intA = 2, intB = 3;
         System.out.println("intA = " + intA + ", intB = " + intB);
         int intC = intA * intB;
-        System.out.println(intC = -+ intC);
+        System.out.println(intC = -+intC);
+
     }
 }
