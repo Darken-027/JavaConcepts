@@ -74,5 +74,6 @@ public class Casting {
 
         System.out.println("User's percentage is " + percentage);
         System.out.println("User's percentage is " + percentage);
+        System.out.println("User's percentage is " + percentage);
     }
 }
