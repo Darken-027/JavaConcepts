@@ -8,7 +8,7 @@ public class UnidimensionalArrays {
         accounts[3] = 1340.0;
         System.out.println("Account 3 must: $" + accounts[3]);
 
-        //Other form[[]
+        //Other form[[]]
         double accounte[] = new double [1001];
         accounte[4] = 122.45;
         System.out.println("Account 4 must: $" + accounte[3]);
